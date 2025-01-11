@@ -107,7 +107,7 @@ end
 
 if q == nil then
 elseif q == true then
-	_G.blood = false  
+	_G.nat = false  
 
 	local e = script.Parent.Parent["Remove-Space"]
 	local e2 = script.Parent.Parent["Remove-Space2"]
