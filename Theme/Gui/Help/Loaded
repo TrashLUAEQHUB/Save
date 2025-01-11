@@ -5,10 +5,11 @@ local g = script.Parent.Parent
 local p = _G.blood
 local s = _G.Reset
 local e = _G.Ocean
+local q = _G.nat
 if p == nil then
 elseif p == true then
 	_G.blood = false  
-	
+
 	local e = script.Parent.Parent["Remove-Space"]
 	local e2 = script.Parent.Parent["Remove-Space2"]
 	local ps = script.Parent.Parent
@@ -26,16 +27,16 @@ elseif p == true then
 	e5.BorderColor3 = BrickColor.new("Really red").Color
 	e6.BorderColor3 = BrickColor.new("Really red").Color
 	e7.BorderColor3 = BrickColor.new("Really red").Color
-	
+
 elseif p == false then
 end
 
 if s == nil then
 elseif s == true then
 	_G.Reset = false
-	
-	
-	
+
+
+
 	local e = script.Parent.Parent["Remove-Space"]
 	local e2 = script.Parent.Parent["Remove-Space2"]
 	local ps = script.Parent.Parent
@@ -53,10 +54,10 @@ elseif s == true then
 	e5.BorderColor3 = BrickColor.new("White").Color
 	e6.BorderColor3 = BrickColor.new("White").Color
 	e7.BorderColor3 = BrickColor.new("White").Color
-	
-	
-	
-	
+
+
+
+
 elseif s == false then
 	print("Cannot use this script")
 end
@@ -65,10 +66,10 @@ end
 if e == nil then
 elseif e == true then
 	e = false
-	
-	
-	
-	
+
+
+
+
 	local e = script.Parent.Parent["Remove-Space"]
 	local e2 = script.Parent.Parent["Remove-Space2"]
 	local ps = script.Parent.Parent
@@ -87,14 +88,115 @@ elseif e == true then
 	e6.BorderColor3 = BrickColor.new("Bright blue").Color
 	e7.BorderColor3 = BrickColor.new("Bright blue").Color
 
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 elseif e == false then
 	print("Cannot use this script")
 end
 
+
+
+
+
+
+
+
+if q == nil then
+elseif q == true then
+	_G.blood = false  
+
+	local e = script.Parent.Parent["Remove-Space"]
+	local e2 = script.Parent.Parent["Remove-Space2"]
+	local ps = script.Parent.Parent
+	local e3 = ps["Tab-Change"]["Tab-Copy-Change"]
+	local e4 = ps["Tab-Change"]["Tab-Scripts-Change"]
+	local e5 = ps["Tab-Change"]["Tab-View-Change"]
+	local e6 = ps["Tab-Change"]["Tab-Theme-Change"]
+	local e7 = ps["Tab-Change"]["Tab-Welcome-Change"]
+	local e8 = ps.Title
+	e8.TextColor3 = BrickColor.new("Lime green").Color
+	e.BackgroundColor3 = BrickColor.new("Lime green").Color
+	e2.BackgroundColor3 = BrickColor.new("Lime green").Color
+	e3.BorderColor3 = BrickColor.new("Lime green").Color
+	e4.BorderColor3 = BrickColor.new("Lime green").Color
+	e5.BorderColor3 = BrickColor.new("Lime green").Color
+	e6.BorderColor3 = BrickColor.new("Lime green").Color
+	e7.BorderColor3 = BrickColor.new("Lime green").Color
+
+elseif q == false then
+end
+
+if q == nil then
+elseif q == true then
+	_G.Reset = false
+
+
+
+	local e = script.Parent.Parent["Remove-Space"]
+	local e2 = script.Parent.Parent["Remove-Space2"]
+	local ps = script.Parent.Parent
+	local e3 = ps["Tab-Change"]["Tab-Copy-Change"]
+	local e4 = ps["Tab-Change"]["Tab-Scripts-Change"]
+	local e5 = ps["Tab-Change"]["Tab-View-Change"]
+	local e6 = ps["Tab-Change"]["Tab-Theme-Change"]
+	local e7 = ps["Tab-Change"]["Tab-Welcome-Change"]
+	local e8 = ps.Title
+	e8.TextColor3 = BrickColor.new("White").Color
+	e.BackgroundColor3 = BrickColor.new("White").Color
+	e2.BackgroundColor3 = BrickColor.new("White").Color
+	e3.BorderColor3 = BrickColor.new("White").Color
+	e4.BorderColor3 = BrickColor.new("White").Color
+	e5.BorderColor3 = BrickColor.new("White").Color
+	e6.BorderColor3 = BrickColor.new("White").Color
+	e7.BorderColor3 = BrickColor.new("White").Color
+
+
+
+
+elseif s == false then
+	print("Cannot use this script")
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --=[ End ]=--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--=[ https://raw.githubusercontent.com/TrashLUAEQHUB/Save/main/Theme/Gui/Help/Loaded ]=--
